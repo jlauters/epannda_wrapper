@@ -10,6 +10,9 @@ against an iDigbio Specimen Record.
 The number of API Calls this generates on a small result set ( 800 records ) has caused performance issues in local script, but also BHL's API
 
 Further dividing this up into smaller schedulable tasks would be a better approach:
+
+
+
 1. small service that searches PBDB Biblio References by Scientific Name ( Order? ) and searches BHL or similar service for journal names from PBDB result set. This data set would go into a MongoDB
 2. data service that pulls these results out and makes buffered API calls to BHL to match the Article title to specific OCR page and push this OCR text back into MongoDB
 3. data service to search iDigBio for the same Scientific Name ( Order? ) as well as state/province or locality name to refine the data set and match 
