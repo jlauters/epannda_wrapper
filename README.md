@@ -2,6 +2,10 @@
 
 Simple wrapper API to shorthand calls to iDigBio, PBDB, and BHL to be consumed by ePANNDA Matching App.
 
+### Example API Calls
+- PBDB Taxonomic Reference (https://paleobiodb.org/data1.2/taxa/refs.json?base_name=bembidium&textresult)
+
+
 ### Approach
 Initially tried to perform real time matching, I found that PBDB biblio references needed to be matched with a third
 party API (Biodiversity Heritage Library) in order to get access to the full OCR text of a journal article to successfully match
