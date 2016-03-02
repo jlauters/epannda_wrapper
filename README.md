@@ -3,7 +3,11 @@
 Simple wrapper API to shorthand calls to iDigBio, PBDB, and BHL to be consumed by ePANNDA Matching App.
 
 ### Example API Calls
-- PBDB Taxonomic Reference (https://paleobiodb.org/data1.2/taxa/refs.json?base_name=bembidium&textresult)
+- PBDB Taxonomic Reference https://paleobiodb.org/data1.2/taxa/refs.json?base_name=bembidium&textresult
+
+
+
+
 
 
 ### Approach
